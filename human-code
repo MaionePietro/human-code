@@ -1,0 +1,56 @@
+
+Aprire il frigo
+	-Controllare cosa manca
+		*chiudo frigo
+
+Estrarre telefono dalla tasca
+	-sbloccare telefono 
+	-aprire le note
+		*creare una nota chiamata lista
+		*appuntare articoli mancanti nella lista
+	-bloccare telefono
+
+Riposare in telefono nella tasca
+
+SE vestito decentemente
+	-esco di casa
+
+ALTRIMENTI 
+	-vestirsi decentemente
+	-esco di casa
+
+Aprire porta
+	-oltrepassarla 
+	-chiudere porta 
+
+Raggiungere il supermercato difronte casa
+	-attraversare la strada con cautela
+
+Entrare nel supermercato 
+	-SE + di 10 articolo
+		*prendere carrello
+
+	-ALTRIMENTI
+		*prendere cestino
+
+Estrarre telefono dalla tasca
+	-sbloccare telefono 
+	-aprire le note
+		*aprire la lista 
+		*per ogni elemento della lista
+			# controllare reparto di riferimento
+			#SE articolo presente
+				°prendere articolo
+				°cancellare articolo dalla lista
+			#ALTRIMENTI
+				°passare all’articolo successivo
+	-bloccare telefono
+
+Andare verso la cassa 
+	-SE c’è fila
+		*attendere il proprio turno
+	-ALTRIMENTI 
+		*
+		*posare articoli sul rullo
+
+Prendere coupon
